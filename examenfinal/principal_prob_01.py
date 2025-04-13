@@ -1,0 +1,5 @@
+from modulosp1 import (aleatorio, no_repetidos, mayor_menor, mayor_par)
+lista_aleatoria = aleatorio()
+lista_de_no_repetidos = no_repetidos(lista_aleatoria)
+ascendente, descendente = mayor_menor(lista_de_no_repetidos)
+lista_de_mayor_par = mayor_par(lista_de_no_repetidos)
